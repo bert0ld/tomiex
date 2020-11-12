@@ -338,12 +338,45 @@ li, a, button {
 }
 
 .fourth-screen {
+	height: 1016px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .fourth-screen-wrapper {
 }
 
 .fourth-screen__img {
+	position: absolute;
+	width: 646.68px;
+	height: 576.36px;
+	left: 167px;
+	top: 3157.64px;
+}
+
+.fourth-container {
+	position: relative;
+	left: 1000px;
+	top: 150px;
+}
+
+.fourth-title {
+	width: 560px;
+	height: 113px;
+	font-weight: 600;
+	font-size: 42px;
+	line-height: 51px;
+	text-transform: uppercase;
+}
+
+.fourth-text {
+	margin: 52px 0;
+	padding-bottom: 40px;
+	width: 819px;
+	height: 225px;
+	font-size: 30px;
+	line-height: 37px;
 }
 
 .fifth-screen {
