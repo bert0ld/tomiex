@@ -1,5 +1,5 @@
 body {
-  width: 1920px;
+  max-width: 1920px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -435,7 +435,7 @@ li, a, button {
 
 .reviews {
 	width: 100%;
-	height: ;
+	height: 885px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -467,6 +467,8 @@ li, a, button {
 }
 
 .reviews__icon {
+	position: absolute;
+	top: 4700px;
 }
 
 .contact {
